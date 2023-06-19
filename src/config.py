@@ -1,0 +1,10 @@
+EXPERIMENT_NAME = "leaf_rice_disease_classification"
+BATCH_SIZE = 16
+IMAGE_SIZE = 224
+ROOT_DIR = 'input/rice_leaf_diseases'
+VALID_SPLIT = 0.1
+IMAGE_SIZE = 224 # Image size of resize when applying transforms.
+BATCH_SIZE = 16
+NUM_WORKERS = 0 # Number of parallel processes for data preparation.
+DEVICE = "cpu"
+CLASS_NAMES = ['Bacterial leaf blight', 'Brown spot', 'Leaf smut']
